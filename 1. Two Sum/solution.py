@@ -18,7 +18,7 @@ def twoSumFast(nums, target):
      * The algorithm should be less than O(n^2) time complexity
     """
 
-    nums.sort() # O(n log n)
+    # Should use hashtable to search    
 
     
 print(twoSum([2,7,11,15], 9))
